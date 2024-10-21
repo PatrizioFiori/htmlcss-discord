@@ -148,3 +148,46 @@ a[href="scaricaPerMac"]{
     background-color:#3160E0;
     color: white;
 }
+
+footer{
+    background-color: #24272B;
+}
+
+.footercontainer {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.maincol{
+    width: 70%;
+    margin: 10px;
+
+}
+
+.linkcol{
+    width: 30%;
+    padding: 15px;
+    margin: 15px;
+}
+
+.footerfooter{
+    margin: 50px 25px 0px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray
+}
+
+.linkcol h3{
+    color: #3160E0;
+}
+
+.linkcol ul{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+
+}
