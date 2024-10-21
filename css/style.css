@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color:blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.page { /*Struttura della pagina*/
+    height: 800px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border: 1px dashed black;
+}
+
+.pageheader{
+    background-color:cadetblue;
+}
+
+.container { /*Struttura del container*/
+    width: 80%;
+    height: 80%;
+    margin-top: 50px;
+    max-width: 1000px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: powderblue;
+    border: 1px dashed black;
+}
+
+
+/*Topheader con logo, link e accedi*/
+.topheader{ 
+    
+    width: 100%;
+    height: 80px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:transparent;
+    padding: 40px;
+    
+}
+
+.topheader > div {
+    padding: 10px;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login{
+    width: 25%;
+    background-color: sandybrown;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.logo{
+    width: 25%;
+    background-color: sandybrown;
+}
+
+.link{
+    width: 50%;
+    background-color: sandybrown;
+}
+
+/*Testo pagina 1*/
+.bottomheadertextbox{ 
+    background-color: palevioletred;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed black;
+}
+
+
+/*Sezione immagini pag 2 - 5*/
+.immagini{ 
+    width: 65%;
+    height: 90%;
+    background-color: tan;
+    border: 1px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+
+/*Sezione testo pag 2 - 5*/
+.textbox{ 
+    width: 35%;
+    height: 90%;
+    background-color: red;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+/*Sezione testo pag 6*/
+.finaltext{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer .page .container{
+    display: flex;
+    justify-content: center;
+}
+
+.schedefooter{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    background-color: transparent;
+    height: 90%;
+    border: 1px dashed black;
+}
+
+.schedefooter>div{
+    width: 70%;
+    height: 100%;
+    background-color: gray;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.schedefooter>p{
+    height: 100%;
+    width: 30%;
+    background-color: lightslategray;
+    border: 1px dashed black;
+}
+
+
+/*Sezione logo e button*/
+.footerfooter{ 
+    width: 80%;
+    height: 10%;
+    background-color: burlywood;
+    max-width: 1000px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px dashed black;
+}
+
+.footerfooter>button{
+    padding: 15px;
+    border: 1px dashed black;
+
+}
+
+.footerfooter>p{
+    padding: 15px;
+    border: 1px dashed black;
+
+}
+
+
