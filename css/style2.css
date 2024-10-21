@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color:blanchedalmond;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+header{
+    background-color: #3160E0;
+}
+
+.topheader{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:#3160E0;
+    padding: 40px;
+
+}
+
+.logo{
+    width: 150px;
+    height: 40px;
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.links a{
+    background-color: transparent;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+
+.login a{
+    text-decoration: none;
+    border-radius: 40%;
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.headercontainer{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.headercontainer>div{
+    margin-top: 150px;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+}
+
+
+.headerbutton{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.headerbutton a{
+    margin: 15px;
+    padding: 20px;
+    border-radius: 45%;
+    background-color: white;
+    text-decoration: none;
+}
+
+a[href="browser"]{
+background-color: #24272B ;
+color: white;
+}
+
+
+.container { /*Struttura del container*/
+    margin: 50px 50px 250px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+.immagini{ 
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+ 
+.textbox{ 
+    width: 35%;
+    height: 90%;
+    display: block;
+    text-align: center;
+
+}
+
+.mainfooter{
+    margin: 50px 50px;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.cta{
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+
+a[href="scaricaPerMac"]{
+    margin: 25px;
+    padding: 15px;
+    border-radius: 45%;
+    background-color: b;
+    text-decoration: none;
+    background-color:#3160E0;
+    color: white;
+}
+
+.mainfooter h2{
+    background-image: ../
+}
