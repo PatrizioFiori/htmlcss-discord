@@ -167,10 +167,26 @@ footer{
 
 }
 
+.maincol h2{
+    color: #3160E0;
+    margin: 10px;
+    padding: 15px;
+}
+
+.maincol > img{
+    width: 10%;
+    height: 10%;
+}
+
+.social img{
+    margin-top: 25px;
+    padding: 15px;
+}
+
 .linkcol{
     width: 30%;
     padding: 15px;
-    margin: 15px;
+
 }
 
 .footerfooter{
@@ -185,9 +201,10 @@ footer{
     color: #3160E0;
 }
 
-.linkcol ul{
+.linkcol ul li{
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
+    margin: 10px 0;
 
 }
