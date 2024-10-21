@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:blanchedalmond;
+    background-color:white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -101,6 +101,7 @@ color: white;
 
 .container { /*Struttura del container*/
     margin: 50px 50px 250px;
+    max-width: 2000px;
     display: flex;
     flex-direction:row;
     align-items: center;
@@ -121,11 +122,12 @@ color: white;
     width: 35%;
     height: 90%;
     display: block;
-    text-align: center;
+    text-align: left;
 
 }
 
 .mainfooter{
+    max-width: 2000px;
     margin: 50px 50px;
     height: 100%;
     display: flex;
@@ -154,6 +156,7 @@ footer{
 }
 
 .footercontainer {
+    max-width: 2000px;
     width: 100%;
     padding: 50px;
     display: flex;
@@ -162,29 +165,31 @@ footer{
 }
 
 .maincol{
-    width: 70%;
-    margin: 10px;
+    width: 60%;
+    margin: 5px;
+    text-align: justify;
 
 }
 
 .maincol h2{
-    color: #3160E0;
-    margin: 10px;
-    padding: 15px;
+    color: #5A64A1;
+    margin-right: 10px;
+    padding-right: 15px;
 }
 
 .maincol > img{
-    width: 10%;
-    height: 10%;
+    width: 15px;
+    height: 15px;
 }
 
-.social img{
+.social i{
     margin-top: 25px;
     padding: 15px;
+    color: white;
 }
 
 .linkcol{
-    width: 30%;
+    width: 40%;
     padding: 15px;
 
 }
@@ -198,7 +203,7 @@ footer{
 }
 
 .linkcol h3{
-    color: #3160E0;
+    color: #5A64A1;
 }
 
 .linkcol ul li{
@@ -207,4 +212,14 @@ footer{
     color: white;
     margin: 10px 0;
 
+}
+
+a[href="registrati"]{
+    margin: 25px;
+    padding: 15px;
+    border-radius: 45%;
+    background-color: b;
+    text-decoration: none;
+    background-color:#5A64A1;
+    color: white;
 }
