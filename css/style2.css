@@ -50,6 +50,9 @@ header{
     font-size: 18px;
 }
 
+.links a:hover {
+    color:wheat;
+}
 
 .login a{
     text-decoration: none;
@@ -57,6 +60,10 @@ header{
     padding: 10px;
     background-color: aliceblue;
     color: black;
+}
+
+.login a:hover {
+    color:gray;
 }
 
 .headercontainer{
@@ -91,6 +98,10 @@ header{
     border-radius: 45%;
     background-color: white;
     text-decoration: none;
+}
+
+.headerbutton a:hover {
+    color:gray;
 }
 
 a[href="browser"]{
@@ -149,6 +160,10 @@ a[href="scaricaPerMac"]{
     text-decoration: none;
     background-color:#3160E0;
     color: white;
+}
+
+a[href="scaricaPerMac"]:hover {
+    color:navy;
 }
 
 footer{
@@ -214,6 +229,11 @@ footer{
 
 }
 
+.linkcol ul li:hover{
+    color: gray;
+
+}
+
 a[href="registrati"]{
     margin: 25px;
     padding: 15px;
@@ -222,4 +242,8 @@ a[href="registrati"]{
     text-decoration: none;
     background-color:#5A64A1;
     color: white;
+}
+
+a[href="registrati"]:hover{
+    color: navy;
 }
