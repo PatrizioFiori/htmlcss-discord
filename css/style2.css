@@ -204,6 +204,10 @@ footer{
     color: white;
 }
 
+.social i:hover {
+    color:#3160E0;
+}
+
 .linkcol{
     width: 40%;
     padding: 15px;
@@ -245,7 +249,7 @@ footer{
 a[href="registrati"]{
     margin: 25px;
     padding: 15px;
-    border-radius: 45%;
+    border-radius: 25px;
     background-color: b;
     text-decoration: none;
     background-color:#5A64A1;
